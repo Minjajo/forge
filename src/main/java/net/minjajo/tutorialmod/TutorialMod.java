@@ -58,8 +58,9 @@ public class TutorialMod {
             event.accept(ModItems.RAW_JADENJOHN);
 
         }
-        if(event.getTabKey() = CreativeModeTabs.BUILDING_BLOCKS){
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.RUBY_BLOCK);
+            event.accept(ModBlocks.RAW_RUBY_BLOCK);
         }
 
     }

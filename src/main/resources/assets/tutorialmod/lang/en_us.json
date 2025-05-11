@@ -1,5 +1,8 @@
 {
   "item.tutorialmod.jadenjohn": "Ruby Shard",
-  "item.tutorialmod.raw_jadenjohn": "Raw Ruby"
+  "item.tutorialmod.raw_jadenjohn": "Raw Ruby",
+
+  "block.tutorialmod.ruby_block": "Block of Ruby",
+  "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby"
 
 }

@@ -24,8 +24,7 @@ public class TutorialMod {
     public static final Logger LOGGER = LogUtils.getLogger();
 
 
-    public TutorialMod()
-    {
+    public TutorialMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register the commonSetup method for modloading

@@ -57,8 +57,8 @@ public class TutorialMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.JADENJOHN);
-            event.accept(ModItems.RAW_JADENJOHN);
+            event.accept(ModItems.RUBY);
+            event.accept(ModItems.RAW_RUBY);
 
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){

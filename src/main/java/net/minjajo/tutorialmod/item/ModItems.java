@@ -10,9 +10,9 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MOD_ID);
 
-    public static final RegistryObject<Item> JADENJOHN = ITEMS.register("jadenjohn", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> RAW_JADENJOHN = ITEMS.register("raw_jadenjohn", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_RUBY = ITEMS.register("raw_ruby", () -> new Item(new Item.Properties()));
 
 
 

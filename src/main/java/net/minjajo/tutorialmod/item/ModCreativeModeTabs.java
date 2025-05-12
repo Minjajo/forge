@@ -15,11 +15,11 @@ public class ModCreativeModeTabs {
 
 
     public static final RegistryObject<CreativeModeTab> RUBY_ITEMS_TAB = CREATIVE_MODE_TABS.register("ruby_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.JADENJOHN.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBY.get()))
                     .title(Component.translatable("creativetab.tutorialmod.ruby_items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.JADENJOHN.get());
-                        output.accept(ModItems.RAW_JADENJOHN.get());
+                        output.accept(ModItems.RUBY.get());
+                        output.accept(ModItems.RAW_RUBY.get());
 
                     }).build());
 

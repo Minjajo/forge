@@ -3,6 +3,10 @@
   "item.tutorialmod.raw_jadenjohn": "Raw Ruby",
 
   "block.tutorialmod.ruby_block": "Block of Ruby",
-  "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby"
+  "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby",
+  "block.tutorialmod.ruby_ore": "Ruby Ore",
+
+  "creativetab.tutorialmod.ruby_items": "Ruby Items",
+  "creativetab.tutorialmod.ruby_blocks": "Ruby Blocks"
 
 }

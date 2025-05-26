@@ -1,12 +1,19 @@
 {
   "item.tutorialmod.ruby": "Ruby Shard",
   "item.tutorialmod.raw_ruby": "Uncut Ruby",
+  "item.tutorialmod.chisel": "Ruby Chisel",
+  "item.tutorialmod.mango": "Mango",
+  "item.tutorialmod.nuclear_waste": "URANIUM 234",
 
   "block.tutorialmod.ruby_block": "Block of Ruby",
   "block.tutorialmod.raw_ruby_block": "Block of Raw Ruby",
   "block.tutorialmod.ruby_ore": "Ruby Ore",
+  "block.tutorialmod.magic_block": "Magic Block",
 
   "creativetab.tutorialmod.ruby_items": "Ruby Items",
-  "creativetab.tutorialmod.ruby_blocks": "Ruby Blocks"
+  "creativetab.tutorialmod.ruby_blocks": "Ruby Blocks",
+
+
+  "tooltip.tutorialmod.magic_block.tooltip": "This Block is very magical"
 
 }

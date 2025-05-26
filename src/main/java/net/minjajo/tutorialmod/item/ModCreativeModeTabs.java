@@ -21,6 +21,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RUBY.get());
                         output.accept(ModItems.RAW_RUBY.get());
 
+                        output.accept(ModItems.CHISEL.get());
+
+
+
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> RUBY_BLOCKS_TAB = CREATIVE_MODE_TABS.register("ruby_blocks_tab",
@@ -31,6 +35,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RUBY_BLOCK.get());
                         output.accept(ModBlocks.RAW_RUBY_BLOCK.get());
                         output.accept(ModBlocks.RUBY_ORE.get());
+                        output.accept(ModBlocks.MAGIC_BLOCK.get());
+
+                    }).build());
+
+    public static final RegistryObject<CreativeModeTab> FRUITS_TAB = CREATIVE_MODE_TABS.register("fruits_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MANGO.get()))
+                    .withTabsBefore(RUBY_BLOCKS_TAB.getId())
+                    .title(Component.translatable("creativetab.tutorialmod.ruby_blocks"))
+                    .displayItems((itemDisplayParameters, output) -> {
+
+                        output.accept(ModItems.MANGO.get());
+                        output.accept(ModItems.NUCLEAR_WASTE.get());
 
                     }).build());
 

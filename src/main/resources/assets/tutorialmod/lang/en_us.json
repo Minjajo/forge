@@ -12,8 +12,12 @@
 
   "creativetab.tutorialmod.ruby_items": "Ruby Items",
   "creativetab.tutorialmod.ruby_blocks": "Ruby Blocks",
+  "creativetab.tutorialmod.fruits_tab": "Fruits",
 
 
-  "tooltip.tutorialmod.magic_block.tooltip": "This Block is very magical"
+  "tooltip.tutorialmod.magic_block.tooltip": "This Block is very magical",
+
+  "tooltip.tutorialmod.chisel.shift_down": "This item turns stone into stone bricks",
+  "tooltip.tutorialmod.chisel": "Press shift for more information"
 
 }

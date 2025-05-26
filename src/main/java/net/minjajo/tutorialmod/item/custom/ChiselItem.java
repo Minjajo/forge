@@ -1,5 +1,9 @@
 package net.minjajo.tutorialmod.item.custom;
 
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.minjajo.tutorialmod.block.ModBlocks;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.server.level.ServerLevel;
@@ -16,6 +20,7 @@ import net.minecraft.world.level.block.Blocks;
 
 import org.apache.logging.log4j.core.jmx.Server;
 
+import java.util.List;
 import java.util.Map;
 
 public class ChiselItem extends Item{
@@ -48,5 +53,16 @@ public class ChiselItem extends Item{
         return InteractionResult.SUCCESS;
     }
 
+    @Override
+    public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+            if(Screen.hasShiftDown()){
+                pTooltipComponents.add(Component.translatable("tooltip.tutorialmod.chisel.shift_down"));
 
+            }
+            else {
+                pTooltipComponents.add(Component.translatable("tooltip.tutorialmod.chisel"));
+            }
+
+        super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
+    }
 }
